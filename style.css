@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=New+Amsterdam&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 10px 50px;
+  padding: 20px 70px;
 }
 #nav-items {
   display: flex;
@@ -23,4 +25,79 @@ body {
   cursor: pointer;
   color: rgb(62, 128, 242);
   text-decoration: underline;
+}
+
+/* banner1 started */
+
+#banner1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 40; */
+  height: auto;
+}
+#banner1txt {
+  width: 45%;
+  font-family: Nunito;
+  padding: 10px;
+}
+#banner1txt h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #012970;
+}
+
+#banner1txt h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+#banner1txt button {
+  background-color: #4154f1;
+  color: white;
+  border: none;
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+/* banner2 started */
+
+#banner2 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+#banner2txt {
+  width: 40%;
+  background-color: rgb(243, 243, 254);
+  padding: 35px;
+}
+#banner2img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* banner3 started */
+
+#banner3 {
+}
+#banner3txt {
+  text-align: center;
+}
+#banner3txt p {
+  color: #4154f1;
+}
+#banner3txt h1 {
+  color: #012970;
+  font-size: 3rem;
+  margin-top: 0;
+}
+#banner3img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
