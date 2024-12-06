@@ -361,3 +361,117 @@ body {
     color: #fff;
   }
 }
+
+/* section 6 started  */
+
+.headings {
+  text-align: center;
+}
+
+.headings p {
+  font-size: large;
+  color: #4154f1;
+}
+
+.headings h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  color: #012970;
+}
+#section6 {
+  padding: 20px;
+  background-color: rgb(244, 244, 244);
+  width: 100%;
+}
+#section6keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+#section6keys h4 {
+  padding: 5px 20px;
+}
+#section6keys h4:hover {
+  border: 1px solid blue;
+  border-radius: 50px;
+}
+#section6imgs {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+}
+#section6img1 {
+  height: 400px;
+  width: 30%;
+  background-image: url("https://www.expertizo.pk/assets/img/pinched.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+#section6img2 {
+  height: 400px;
+  width: 30%;
+  background-image: url("https://www.expertizo.pk/assets/img/bistroChat.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+#section6img3 {
+  height: 400px;
+  width: 30%;
+  background-image: url("https://www.expertizo.pk/assets/img/sesire.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+#section6img4 {
+  height: 400px;
+  width: 30%;
+  background-image: url("https://www.expertizo.pk/assets/img/outlier-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+#section6img5 {
+  height: 400px;
+  width: 30%;
+  background-image: url("https://www.expertizo.pk/assets/img/stringr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+#section6img6 {
+  height: 400px;
+  width: 30%;
+  background-image: url("https://www.expertizo.pk/assets/img/timeSeal.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.section6img:hover {
+  .imgtxt {
+    visibility: visible;
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 10px;
+  }
+}
+.imgtxt {
+  height: 100%;
+  padding: 2rem;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
