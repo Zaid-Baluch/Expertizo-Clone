@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(244, 244, 244);
 }
 #navbar {
   display: flex;
@@ -13,6 +14,9 @@ body {
   align-items: center;
   background-color: white;
   padding: 20px 70px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 #nav-items {
   display: flex;
@@ -36,7 +40,8 @@ body {
   justify-content: center;
   align-items: center;
   /* padding: 0 40; */
-  height: auto;
+  height: 100vh;
+  margin: 10px;
 }
 #banner1txt {
   width: 45%;
@@ -69,6 +74,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 50px;
+  background-color: rgb(244, 244, 244);
 }
 #banner2txt {
   width: 40%;
@@ -85,6 +91,7 @@ body {
 /* banner3 started */
 
 #banner3 {
+  padding: 20px 0;
 }
 #banner3txt {
   text-align: center;
@@ -106,9 +113,9 @@ body {
 
 /* banner4 started */
 #banner4 {
-  background-color: rgb(243, 236, 236);
+  background-color: rgb(244, 244, 244);
   height: 100%;
-  padding: 10px;
+  padding: 20px 0;
 }
 #banner4txt {
   text-align: center;
@@ -123,8 +130,11 @@ body {
 }
 
 .cards {
+  width: 100%;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px 1px;
 }
 #card1 {
   display: flex;
@@ -204,5 +214,150 @@ body {
   background-color: rgb(125, 244, 125);
   #cardimg3 {
     background-color: #fff;
+  }
+}
+
+/* card 4 */
+
+#card4 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 2em;
+  background-color: white;
+  border-radius: 10px;
+  gap: 10px;
+  text-align: center;
+}
+#cardimg4 {
+  background-color: rgb(235, 223, 223);
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+#card4:hover {
+  background-color: red;
+  #cardimg4 {
+    background-color: #fff;
+  }
+}
+
+/* card 5 */
+
+#card5 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 2em;
+  background-color: white;
+  border-radius: 10px;
+  gap: 10px;
+  text-align: center;
+}
+#cardimg5 {
+  background-color: rgb(250, 189, 250);
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+#card5:hover {
+  background-color: purple;
+  #cardimg5 {
+    background-color: white;
+  }
+}
+
+/* card 6 */
+
+#card6 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 2em;
+  background-color: white;
+  border-radius: 10px;
+  gap: 10px;
+  text-align: center;
+}
+#cardimg6 {
+  background-color: rgb(248, 218, 223);
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+#card6:hover {
+  background-color: pink;
+  #cardimg6 {
+    background-color: white;
+  }
+}
+
+/* section 5 */
+#section5 {
+  padding: 20px;
+  background-color: rgb(244, 244, 244);
+  width: 100%;
+}
+
+#section5txt {
+  text-align: center;
+}
+
+#section5txt p {
+  font-size: large;
+  color: #4154f1;
+}
+
+#section5txt h2 {
+  font-size: 2rem;
+  color: #012970;
+}
+#banner5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.section5img {
+  width: 50%;
+}
+#section5keys {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.keys {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  width: 250px;
+  border-radius: 5px;
+  padding: 20px 40px;
+  box-shadow: 1px 1px 10px gray;
+  font-size: larger;
+  font-weight: bold;
+}
+.keysign {
+  background-color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.keys:hover {
+  cursor: pointer;
+  .keysign {
+    background-color: #a4acf9;
+    color: #fff;
   }
 }
