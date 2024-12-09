@@ -717,7 +717,7 @@ body {
 
 /* media query started */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 980px) {
   /* navbar */
   #navbar {
     flex-direction: column;
