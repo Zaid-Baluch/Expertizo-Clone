@@ -40,7 +40,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0 40; */
   height: 100vh;
   margin: 10px;
 }
@@ -137,14 +136,14 @@ body {
   flex-wrap: wrap;
   gap: 20px 1px;
 }
-#card1 {
+.card {
   display: flex;
   flex-direction: column;
   height: 400px;
   width: 25%;
   justify-content: center;
   align-items: center;
-  padding: 4em 2em;
+  padding: 10px;
   background-color: white;
   border-radius: 10px;
   gap: 10px;
@@ -166,19 +165,7 @@ body {
 }
 
 /* card 2 */
-#card2 {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 25%;
-  justify-content: center;
-  align-items: center;
-  padding: 4em 2em;
-  background-color: white;
-  border-radius: 10px;
-  gap: 10px;
-  text-align: center;
-}
+
 #cardimg2 {
   background-color: #fab143;
   padding: 1.5rem;
@@ -193,19 +180,6 @@ body {
 
 /* card 3 */
 
-#card3 {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 25%;
-  justify-content: center;
-  align-items: center;
-  padding: 4em 2em;
-  background-color: white;
-  border-radius: 10px;
-  gap: 10px;
-  text-align: center;
-}
 #cardimg3 {
   background-color: #5ee657;
   padding: 1.5rem;
@@ -220,19 +194,6 @@ body {
 
 /* card 4 */
 
-#card4 {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 25%;
-  justify-content: center;
-  align-items: center;
-  padding: 4em 2em;
-  background-color: white;
-  border-radius: 10px;
-  gap: 10px;
-  text-align: center;
-}
 #cardimg4 {
   background-color: rgb(235, 223, 223);
   padding: 1.5rem;
@@ -247,19 +208,6 @@ body {
 
 /* card 5 */
 
-#card5 {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 25%;
-  justify-content: center;
-  align-items: center;
-  padding: 4em 2em;
-  background-color: white;
-  border-radius: 10px;
-  gap: 10px;
-  text-align: center;
-}
 #cardimg5 {
   background-color: rgb(250, 189, 250);
   padding: 1.5rem;
@@ -274,19 +222,6 @@ body {
 
 /* card 6 */
 
-#card6 {
-  display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 25%;
-  justify-content: center;
-  align-items: center;
-  padding: 4em 2em;
-  background-color: white;
-  border-radius: 10px;
-  gap: 10px;
-  text-align: center;
-}
 #cardimg6 {
   background-color: rgb(248, 218, 223);
   padding: 1.5rem;
@@ -778,4 +713,115 @@ body {
   background-color: rgb(244, 244, 244);
   width: 100%;
   padding: 20px;
+}
+
+/* media query started */
+
+@media screen and (max-width: 1000px) {
+  /* navbar */
+  #navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+  #nav-items {
+    display: none;
+  }
+
+  /* section 1 */
+  #banner1 {
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
+  #banner1txt {
+    margin-top: 2rem;
+    width: 80%;
+    padding: 10px;
+  }
+  /* section 2 */
+  #banner2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #banner2txt {
+    width: 80%;
+  }
+  #banner2img {
+    width: 80%;
+  }
+
+  /* section 3 */
+
+  #banner3img {
+    width: 80%;
+  }
+
+  /* section 4 */
+  #banner4 {
+    width: 80%;
+    justify-self: center;
+  }
+  #cards {
+    width: 80%;
+  }
+  .card {
+    width: 40%;
+  }
+  /* section 5 */
+  #banner5 {
+    flex-direction: column;
+  }
+  #section5img {
+    width: 80%;
+  }
+  #section5keys {
+    width: 80%;
+  }
+
+  /* section 6 */
+  #section6imgs {
+    justify-content: center;
+  }
+
+  /* section 7 */
+  #cards {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sec7card {
+    width: 80%;
+  }
+  /* section 8 */
+
+  #section8cards {
+    flex-wrap: wrap;
+  }
+  #sec8card1 {
+    width: 80%;
+  }
+  #sec8card2 {
+    width: 80%;
+  }
+  #sec8card3 {
+    width: 80%;
+  }
+
+  /* section 9 */
+  #sec9cntr {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #sec9keys {
+    width: 80%;
+  }
+  .key {
+    height: 100%;
+  }
+  #sec9form {
+    width: 80%;
+  }
 }
